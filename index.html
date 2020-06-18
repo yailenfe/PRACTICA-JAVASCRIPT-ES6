@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <br>
+        <br>
+        <form id="myForm">
+            <div class="form-group">
+                <label for="text">Nombre</label>
+                <input type="text" class="form-control" id="nombre" autofocus>
+
+            </div>
+            <div class="form-group">
+                <label for="text">Edad</label>
+                <input type="text" class="form-control" id="edad">
+            </div>
+            <div class="form-group">
+                <label for="select">Grados</label>
+                <select class="form-control" id="grado">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit">Add</button>
+        </form>
+        <br>
+        <br>
+        <br>
+
+        <table class="table" id="tabla">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Edad</th>
+                    <th scope="col">Grado</th>
+                    <th scope="col">Elimiar</th>
+                </tr>
+            </thead>
+            <tbody id="tabla_body">
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <script src="dom.js"></script>
+</body>
+
+</html>
